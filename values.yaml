@@ -1,0 +1,10 @@
+web:
+ name: mywebdelpoy
+ image: nginx
+ 
+svc:
+ name: mywebsvc
+ port: 80
+ protocol: TCP
+ tartgetPort: 80
+ type: ClusterIP

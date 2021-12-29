@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  labels:
+    run: nginx
+  name: {{.Values.web.name }}
+spec:
+  containers:
+  - image: {{.Values.web.image }}
+    name: {{.Values.web.name }}
