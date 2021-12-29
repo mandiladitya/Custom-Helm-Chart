@@ -5,6 +5,6 @@
 - helm version
 
 ### Some Commands
-- helm create myfirstchart
-- cd myfirstchart
+- helm create myfirst
+- cd myfirst
 - helm install myfirstchart .
